@@ -1,4 +1,3 @@
-// Package server implements an assistant server.
 package server
 
 import (

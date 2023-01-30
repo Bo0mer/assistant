@@ -1,3 +1,9 @@
+// Program assistant starts a virtual assistant.
+// Supported arguments of the program are:
+//
+//	-help Print help for running the program.
+//
+//	-port Specify the port to start the server on.
 package main
 
 import (
