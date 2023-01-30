@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"net/http"
+
+	"github.com/Bo0mer/assistant/server"
+)
 
 func main() {
-	fmt.Println("Hi, how can I assist you?")
+	srv := server.NewServer()
+
+	err := http.ListenAndServe(":9191", srv)
+	if err != nil {
+		log.Fatalf("error starting server: %v", err)
+	}
 }
