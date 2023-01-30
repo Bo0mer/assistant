@@ -1,4 +1,4 @@
-// Program assistant starts a virtual assistant.
+// Program assistantsrv starts a virtual assistant.
 // Supported arguments of the program are:
 //
 //	-help Print help for running the program.
